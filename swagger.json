@@ -76,6 +76,20 @@
                         "name": "id",
                         "in": "path",
                         "required": true
+                    },
+                    {
+                        "type": "string",
+                        "description": "start records from date in the format dd-mm-yyyy",
+                        "name": "startDate",
+                        "in": "query",
+                        "required": true
+                    },
+                    {
+                        "type": "string",
+                        "description": "start records from date in the format dd-mm-yyyy",
+                        "name": "endDate",
+                        "in": "query",
+                        "required": true
                     }
                 ],
                 "responses": {
